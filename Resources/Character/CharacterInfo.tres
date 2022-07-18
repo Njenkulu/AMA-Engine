@@ -1,15 +1,18 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" load_steps=4 format=2]
 
 [ext_resource path="res://Resources/Character/CharacterInfo.cs" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://Testing/Phara/Phara.fbx" type="PackedScene" id=3]
 
 [resource]
+resource_local_to_scene = true
 script = ExtResource( 1 )
-name = null
-age = 0
-gender = null
-height = 0
-lifePoints = 0
-maxGauge = 0
+name = "Phara"
+age = 27
+gender = "Male"
+height = 164
+lifePoints = 100
+maxGauge = 100
 portraitSmall = ExtResource( 2 )
 portraitBig = ExtResource( 2 )
+characterPrefab = ExtResource( 3 )

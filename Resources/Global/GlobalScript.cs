@@ -11,6 +11,7 @@ public class GlobalScript : Node
 	[Export] private Resource P2Info;
 	[Export] private Resource P1AssistInfo;
 	[Export] private Resource P2AssistInfo;
+	[Export] private Resource stage;
 
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()

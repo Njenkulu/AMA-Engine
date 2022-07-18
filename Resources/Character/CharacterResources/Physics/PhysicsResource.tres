@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://Resources/Character/CharacterResources/Physics/PhysicsScript.cs" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+forwardSpeed = 0
+backwardSpeed = 0
+highMovingFriction = false
+friction = 0
+enableJump = false
+jumpForce = 0
+jumpDistance = 0
+jumpDelay = 0
+landingDelay = 0
+airJumps = 0
+charactersWeight = 0
+groundCollisionMass = 0
+cumulativeForce = false

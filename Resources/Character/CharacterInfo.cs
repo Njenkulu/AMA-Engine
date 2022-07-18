@@ -1,7 +1,7 @@
 using Godot;
 using System;
 
-public class CharacterInfo : Node
+public class CharacterInfo : Resource
 {
 	// Declare member variables here. Examples:
 	// private int a = 2;
@@ -22,7 +22,7 @@ public class CharacterInfo : Node
 	[Export] private Resource AIInstructions;
 
 	// Called when the node enters the scene tree for the first time.
-	public override void _Ready()
+	public virtual void _Ready()
 	{
 		
 	}

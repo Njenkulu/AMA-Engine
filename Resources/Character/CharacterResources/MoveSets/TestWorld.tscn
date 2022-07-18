@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Resources/Character/CharacterInfo.tres" type="Resource" id=1]
+[ext_resource path="res://Resources/Global/GlobalScript.cs" type="Script" id=2]
+
+[node name="TestWorld" type="Spatial"]
+
+[node name="ResourcePreloader" type="ResourcePreloader" parent="."]
+script = ExtResource( 2 )
+P1Info = ExtResource( 1 )
